@@ -1,0 +1,83 @@
+html, body {
+  width: 100vh
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 30px;
+}
+h5{
+color:#2e7037;
+padding: 10px 2px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 4%;
+
+}
+form{
+    
+    background-color: #4cc75c;
+    max-width: 500px;
+    height:500px;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+form h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+} 
+form p{
+    text-align: center;
+    margin: 20px 0;
+
+}
+.inupt-single{
+    position: relative;
+    margin: 30px 0;
+
+}
+ .inupt-single label{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: all 0.2s;
+    cursor: text;
+ }
+ .input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 17px;
+    outline: 0;
+ } 
+ form .inupt-single .input:focus ~ label,
+ form .inupt-single .input:valid ~ label{
+    transform: translateY(-30px);
+    font-size: 12px;
+    color: #2e7037;
+ }
+ .btn{
+    width: 100%;
+    text-align: center;
+
+ }
+ form input[type=submit]{
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #2e7037;
+    color: #fff;
+    cursor: pointer;
+
+ }
